@@ -1,0 +1,948 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 warn package.json contact@1.0.0 No repository field.
+5 warn package.json contact@1.0.0 scripts['server'] should probably be scripts['start'].
+6 verbose readDependencies using package.json deps
+7 verbose install where, deps [ '/home/lwg/work/angular2-contacts-demo',
+7 verbose install   [ '@angular/common',
+7 verbose install     '@angular/compiler',
+7 verbose install     '@angular/core',
+7 verbose install     '@angular/forms',
+7 verbose install     '@angular/http',
+7 verbose install     '@angular/platform-browser',
+7 verbose install     '@angular/platform-browser-dynamic',
+7 verbose install     '@angular/router',
+7 verbose install     'angular2-in-memory-web-api',
+7 verbose install     'bootstrap',
+7 verbose install     'core-js',
+7 verbose install     'reflect-metadata',
+7 verbose install     'rxjs',
+7 verbose install     'zone.js',
+7 verbose install     '@types/core-js',
+7 verbose install     'source-map-loader',
+7 verbose install     'ts-loader',
+7 verbose install     'typescript',
+7 verbose install     'webpack',
+7 verbose install     'webpack-dev-server',
+7 verbose install     'webpack-merge' ] ]
+8 info preinstall contact@1.0.0
+9 verbose readDependencies using package.json deps
+10 verbose cache add [ '@angular/common@2.0.0', null ]
+11 verbose cache add name=undefined spec="@angular/common@2.0.0" args=["@angular/common@2.0.0",null]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: '@angular/common@2.0.0',
+12 verbose parsed url   path: '@angular/common@2.0.0',
+12 verbose parsed url   href: '@angular/common@2.0.0' }
+13 verbose cache add name="" spec="angular/common@2.0.0" args=["","angular/common@2.0.0"]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'angular/common@2.0.0',
+14 verbose parsed url   path: 'angular/common@2.0.0',
+14 verbose parsed url   href: 'angular/common@2.0.0' }
+15 verbose cache add name="angular/common" spec="2.0.0" args=["angular/common","2.0.0"]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: '2.0.0',
+16 verbose parsed url   path: '2.0.0',
+16 verbose parsed url   href: '2.0.0' }
+17 verbose addNamed [ 'angular/common', '2.0.0' ]
+18 verbose addNamed [ '2.0.0', '2.0.0' ]
+19 verbose cache add [ '@angular/compiler@2.0.0', null ]
+20 verbose cache add name=undefined spec="@angular/compiler@2.0.0" args=["@angular/compiler@2.0.0",null]
+21 verbose parsed url { protocol: null,
+21 verbose parsed url   slashes: null,
+21 verbose parsed url   auth: null,
+21 verbose parsed url   host: null,
+21 verbose parsed url   port: null,
+21 verbose parsed url   hostname: null,
+21 verbose parsed url   hash: null,
+21 verbose parsed url   search: null,
+21 verbose parsed url   query: null,
+21 verbose parsed url   pathname: '@angular/compiler@2.0.0',
+21 verbose parsed url   path: '@angular/compiler@2.0.0',
+21 verbose parsed url   href: '@angular/compiler@2.0.0' }
+22 verbose cache add name="" spec="angular/compiler@2.0.0" args=["","angular/compiler@2.0.0"]
+23 verbose parsed url { protocol: null,
+23 verbose parsed url   slashes: null,
+23 verbose parsed url   auth: null,
+23 verbose parsed url   host: null,
+23 verbose parsed url   port: null,
+23 verbose parsed url   hostname: null,
+23 verbose parsed url   hash: null,
+23 verbose parsed url   search: null,
+23 verbose parsed url   query: null,
+23 verbose parsed url   pathname: 'angular/compiler@2.0.0',
+23 verbose parsed url   path: 'angular/compiler@2.0.0',
+23 verbose parsed url   href: 'angular/compiler@2.0.0' }
+24 verbose cache add name="angular/compiler" spec="2.0.0" args=["angular/compiler","2.0.0"]
+25 verbose parsed url { protocol: null,
+25 verbose parsed url   slashes: null,
+25 verbose parsed url   auth: null,
+25 verbose parsed url   host: null,
+25 verbose parsed url   port: null,
+25 verbose parsed url   hostname: null,
+25 verbose parsed url   hash: null,
+25 verbose parsed url   search: null,
+25 verbose parsed url   query: null,
+25 verbose parsed url   pathname: '2.0.0',
+25 verbose parsed url   path: '2.0.0',
+25 verbose parsed url   href: '2.0.0' }
+26 verbose addNamed [ 'angular/compiler', '2.0.0' ]
+27 verbose addNamed [ '2.0.0', '2.0.0' ]
+28 silly lockFile 0e3d6c46-angular-common-2-0-0 angular/common@2.0.0
+29 verbose lock angular/common@2.0.0 /home/lwg/.npm/0e3d6c46-angular-common-2-0-0.lock
+30 silly lockFile 770c3c92-angular-compiler-2-0-0 angular/compiler@2.0.0
+31 verbose lock angular/compiler@2.0.0 /home/lwg/.npm/770c3c92-angular-compiler-2-0-0.lock
+32 verbose cache add [ '@angular/forms@2.0.0', null ]
+33 verbose cache add name=undefined spec="@angular/forms@2.0.0" args=["@angular/forms@2.0.0",null]
+34 verbose parsed url { protocol: null,
+34 verbose parsed url   slashes: null,
+34 verbose parsed url   auth: null,
+34 verbose parsed url   host: null,
+34 verbose parsed url   port: null,
+34 verbose parsed url   hostname: null,
+34 verbose parsed url   hash: null,
+34 verbose parsed url   search: null,
+34 verbose parsed url   query: null,
+34 verbose parsed url   pathname: '@angular/forms@2.0.0',
+34 verbose parsed url   path: '@angular/forms@2.0.0',
+34 verbose parsed url   href: '@angular/forms@2.0.0' }
+35 verbose cache add name="" spec="angular/forms@2.0.0" args=["","angular/forms@2.0.0"]
+36 verbose parsed url { protocol: null,
+36 verbose parsed url   slashes: null,
+36 verbose parsed url   auth: null,
+36 verbose parsed url   host: null,
+36 verbose parsed url   port: null,
+36 verbose parsed url   hostname: null,
+36 verbose parsed url   hash: null,
+36 verbose parsed url   search: null,
+36 verbose parsed url   query: null,
+36 verbose parsed url   pathname: 'angular/forms@2.0.0',
+36 verbose parsed url   path: 'angular/forms@2.0.0',
+36 verbose parsed url   href: 'angular/forms@2.0.0' }
+37 verbose cache add name="angular/forms" spec="2.0.0" args=["angular/forms","2.0.0"]
+38 verbose parsed url { protocol: null,
+38 verbose parsed url   slashes: null,
+38 verbose parsed url   auth: null,
+38 verbose parsed url   host: null,
+38 verbose parsed url   port: null,
+38 verbose parsed url   hostname: null,
+38 verbose parsed url   hash: null,
+38 verbose parsed url   search: null,
+38 verbose parsed url   query: null,
+38 verbose parsed url   pathname: '2.0.0',
+38 verbose parsed url   path: '2.0.0',
+38 verbose parsed url   href: '2.0.0' }
+39 verbose addNamed [ 'angular/forms', '2.0.0' ]
+40 verbose addNamed [ '2.0.0', '2.0.0' ]
+41 silly lockFile 547a9a62-angular-forms-2-0-0 angular/forms@2.0.0
+42 verbose lock angular/forms@2.0.0 /home/lwg/.npm/547a9a62-angular-forms-2-0-0.lock
+43 verbose cache add [ '@angular/core@2.0.0', null ]
+44 verbose cache add name=undefined spec="@angular/core@2.0.0" args=["@angular/core@2.0.0",null]
+45 verbose parsed url { protocol: null,
+45 verbose parsed url   slashes: null,
+45 verbose parsed url   auth: null,
+45 verbose parsed url   host: null,
+45 verbose parsed url   port: null,
+45 verbose parsed url   hostname: null,
+45 verbose parsed url   hash: null,
+45 verbose parsed url   search: null,
+45 verbose parsed url   query: null,
+45 verbose parsed url   pathname: '@angular/core@2.0.0',
+45 verbose parsed url   path: '@angular/core@2.0.0',
+45 verbose parsed url   href: '@angular/core@2.0.0' }
+46 verbose cache add name="" spec="angular/core@2.0.0" args=["","angular/core@2.0.0"]
+47 verbose parsed url { protocol: null,
+47 verbose parsed url   slashes: null,
+47 verbose parsed url   auth: null,
+47 verbose parsed url   host: null,
+47 verbose parsed url   port: null,
+47 verbose parsed url   hostname: null,
+47 verbose parsed url   hash: null,
+47 verbose parsed url   search: null,
+47 verbose parsed url   query: null,
+47 verbose parsed url   pathname: 'angular/core@2.0.0',
+47 verbose parsed url   path: 'angular/core@2.0.0',
+47 verbose parsed url   href: 'angular/core@2.0.0' }
+48 verbose cache add name="angular/core" spec="2.0.0" args=["angular/core","2.0.0"]
+49 verbose parsed url { protocol: null,
+49 verbose parsed url   slashes: null,
+49 verbose parsed url   auth: null,
+49 verbose parsed url   host: null,
+49 verbose parsed url   port: null,
+49 verbose parsed url   hostname: null,
+49 verbose parsed url   hash: null,
+49 verbose parsed url   search: null,
+49 verbose parsed url   query: null,
+49 verbose parsed url   pathname: '2.0.0',
+49 verbose parsed url   path: '2.0.0',
+49 verbose parsed url   href: '2.0.0' }
+50 verbose addNamed [ 'angular/core', '2.0.0' ]
+51 verbose addNamed [ '2.0.0', '2.0.0' ]
+52 silly lockFile b9bc72b6-angular-core-2-0-0 angular/core@2.0.0
+53 verbose lock angular/core@2.0.0 /home/lwg/.npm/b9bc72b6-angular-core-2-0-0.lock
+54 verbose cache add [ '@angular/http@2.0.0', null ]
+55 verbose cache add name=undefined spec="@angular/http@2.0.0" args=["@angular/http@2.0.0",null]
+56 verbose parsed url { protocol: null,
+56 verbose parsed url   slashes: null,
+56 verbose parsed url   auth: null,
+56 verbose parsed url   host: null,
+56 verbose parsed url   port: null,
+56 verbose parsed url   hostname: null,
+56 verbose parsed url   hash: null,
+56 verbose parsed url   search: null,
+56 verbose parsed url   query: null,
+56 verbose parsed url   pathname: '@angular/http@2.0.0',
+56 verbose parsed url   path: '@angular/http@2.0.0',
+56 verbose parsed url   href: '@angular/http@2.0.0' }
+57 verbose cache add name="" spec="angular/http@2.0.0" args=["","angular/http@2.0.0"]
+58 verbose parsed url { protocol: null,
+58 verbose parsed url   slashes: null,
+58 verbose parsed url   auth: null,
+58 verbose parsed url   host: null,
+58 verbose parsed url   port: null,
+58 verbose parsed url   hostname: null,
+58 verbose parsed url   hash: null,
+58 verbose parsed url   search: null,
+58 verbose parsed url   query: null,
+58 verbose parsed url   pathname: 'angular/http@2.0.0',
+58 verbose parsed url   path: 'angular/http@2.0.0',
+58 verbose parsed url   href: 'angular/http@2.0.0' }
+59 verbose cache add name="angular/http" spec="2.0.0" args=["angular/http","2.0.0"]
+60 verbose parsed url { protocol: null,
+60 verbose parsed url   slashes: null,
+60 verbose parsed url   auth: null,
+60 verbose parsed url   host: null,
+60 verbose parsed url   port: null,
+60 verbose parsed url   hostname: null,
+60 verbose parsed url   hash: null,
+60 verbose parsed url   search: null,
+60 verbose parsed url   query: null,
+60 verbose parsed url   pathname: '2.0.0',
+60 verbose parsed url   path: '2.0.0',
+60 verbose parsed url   href: '2.0.0' }
+61 verbose addNamed [ 'angular/http', '2.0.0' ]
+62 verbose addNamed [ '2.0.0', '2.0.0' ]
+63 silly lockFile dd755930-angular-http-2-0-0 angular/http@2.0.0
+64 verbose lock angular/http@2.0.0 /home/lwg/.npm/dd755930-angular-http-2-0-0.lock
+65 verbose cache add [ '@angular/platform-browser@2.0.0', null ]
+66 verbose cache add name=undefined spec="@angular/platform-browser@2.0.0" args=["@angular/platform-browser@2.0.0",null]
+67 verbose parsed url { protocol: null,
+67 verbose parsed url   slashes: null,
+67 verbose parsed url   auth: null,
+67 verbose parsed url   host: null,
+67 verbose parsed url   port: null,
+67 verbose parsed url   hostname: null,
+67 verbose parsed url   hash: null,
+67 verbose parsed url   search: null,
+67 verbose parsed url   query: null,
+67 verbose parsed url   pathname: '@angular/platform-browser@2.0.0',
+67 verbose parsed url   path: '@angular/platform-browser@2.0.0',
+67 verbose parsed url   href: '@angular/platform-browser@2.0.0' }
+68 verbose cache add name="" spec="angular/platform-browser@2.0.0" args=["","angular/platform-browser@2.0.0"]
+69 verbose parsed url { protocol: null,
+69 verbose parsed url   slashes: null,
+69 verbose parsed url   auth: null,
+69 verbose parsed url   host: null,
+69 verbose parsed url   port: null,
+69 verbose parsed url   hostname: null,
+69 verbose parsed url   hash: null,
+69 verbose parsed url   search: null,
+69 verbose parsed url   query: null,
+69 verbose parsed url   pathname: 'angular/platform-browser@2.0.0',
+69 verbose parsed url   path: 'angular/platform-browser@2.0.0',
+69 verbose parsed url   href: 'angular/platform-browser@2.0.0' }
+70 verbose cache add name="angular/platform-browser" spec="2.0.0" args=["angular/platform-browser","2.0.0"]
+71 verbose parsed url { protocol: null,
+71 verbose parsed url   slashes: null,
+71 verbose parsed url   auth: null,
+71 verbose parsed url   host: null,
+71 verbose parsed url   port: null,
+71 verbose parsed url   hostname: null,
+71 verbose parsed url   hash: null,
+71 verbose parsed url   search: null,
+71 verbose parsed url   query: null,
+71 verbose parsed url   pathname: '2.0.0',
+71 verbose parsed url   path: '2.0.0',
+71 verbose parsed url   href: '2.0.0' }
+72 verbose addNamed [ 'angular/platform-browser', '2.0.0' ]
+73 verbose addNamed [ '2.0.0', '2.0.0' ]
+74 silly lockFile c16ff788-angular-platform-browser-2-0-0 angular/platform-browser@2.0.0
+75 verbose lock angular/platform-browser@2.0.0 /home/lwg/.npm/c16ff788-angular-platform-browser-2-0-0.lock
+76 verbose cache add [ '@angular/platform-browser-dynamic@2.0.0', null ]
+77 verbose cache add name=undefined spec="@angular/platform-browser-dynamic@2.0.0" args=["@angular/platform-browser-dynamic@2.0.0",null]
+78 verbose parsed url { protocol: null,
+78 verbose parsed url   slashes: null,
+78 verbose parsed url   auth: null,
+78 verbose parsed url   host: null,
+78 verbose parsed url   port: null,
+78 verbose parsed url   hostname: null,
+78 verbose parsed url   hash: null,
+78 verbose parsed url   search: null,
+78 verbose parsed url   query: null,
+78 verbose parsed url   pathname: '@angular/platform-browser-dynamic@2.0.0',
+78 verbose parsed url   path: '@angular/platform-browser-dynamic@2.0.0',
+78 verbose parsed url   href: '@angular/platform-browser-dynamic@2.0.0' }
+79 verbose cache add name="" spec="angular/platform-browser-dynamic@2.0.0" args=["","angular/platform-browser-dynamic@2.0.0"]
+80 verbose parsed url { protocol: null,
+80 verbose parsed url   slashes: null,
+80 verbose parsed url   auth: null,
+80 verbose parsed url   host: null,
+80 verbose parsed url   port: null,
+80 verbose parsed url   hostname: null,
+80 verbose parsed url   hash: null,
+80 verbose parsed url   search: null,
+80 verbose parsed url   query: null,
+80 verbose parsed url   pathname: 'angular/platform-browser-dynamic@2.0.0',
+80 verbose parsed url   path: 'angular/platform-browser-dynamic@2.0.0',
+80 verbose parsed url   href: 'angular/platform-browser-dynamic@2.0.0' }
+81 verbose cache add name="angular/platform-browser-dynamic" spec="2.0.0" args=["angular/platform-browser-dynamic","2.0.0"]
+82 verbose parsed url { protocol: null,
+82 verbose parsed url   slashes: null,
+82 verbose parsed url   auth: null,
+82 verbose parsed url   host: null,
+82 verbose parsed url   port: null,
+82 verbose parsed url   hostname: null,
+82 verbose parsed url   hash: null,
+82 verbose parsed url   search: null,
+82 verbose parsed url   query: null,
+82 verbose parsed url   pathname: '2.0.0',
+82 verbose parsed url   path: '2.0.0',
+82 verbose parsed url   href: '2.0.0' }
+83 verbose addNamed [ 'angular/platform-browser-dynamic', '2.0.0' ]
+84 verbose addNamed [ '2.0.0', '2.0.0' ]
+85 silly lockFile feea2851-r-platform-browser-dynamic-2-0-0 angular/platform-browser-dynamic@2.0.0
+86 verbose lock angular/platform-browser-dynamic@2.0.0 /home/lwg/.npm/feea2851-r-platform-browser-dynamic-2-0-0.lock
+87 verbose cache add [ '@angular/router@3.0.0', null ]
+88 verbose cache add name=undefined spec="@angular/router@3.0.0" args=["@angular/router@3.0.0",null]
+89 verbose parsed url { protocol: null,
+89 verbose parsed url   slashes: null,
+89 verbose parsed url   auth: null,
+89 verbose parsed url   host: null,
+89 verbose parsed url   port: null,
+89 verbose parsed url   hostname: null,
+89 verbose parsed url   hash: null,
+89 verbose parsed url   search: null,
+89 verbose parsed url   query: null,
+89 verbose parsed url   pathname: '@angular/router@3.0.0',
+89 verbose parsed url   path: '@angular/router@3.0.0',
+89 verbose parsed url   href: '@angular/router@3.0.0' }
+90 verbose cache add name="" spec="angular/router@3.0.0" args=["","angular/router@3.0.0"]
+91 verbose parsed url { protocol: null,
+91 verbose parsed url   slashes: null,
+91 verbose parsed url   auth: null,
+91 verbose parsed url   host: null,
+91 verbose parsed url   port: null,
+91 verbose parsed url   hostname: null,
+91 verbose parsed url   hash: null,
+91 verbose parsed url   search: null,
+91 verbose parsed url   query: null,
+91 verbose parsed url   pathname: 'angular/router@3.0.0',
+91 verbose parsed url   path: 'angular/router@3.0.0',
+91 verbose parsed url   href: 'angular/router@3.0.0' }
+92 verbose cache add name="angular/router" spec="3.0.0" args=["angular/router","3.0.0"]
+93 verbose parsed url { protocol: null,
+93 verbose parsed url   slashes: null,
+93 verbose parsed url   auth: null,
+93 verbose parsed url   host: null,
+93 verbose parsed url   port: null,
+93 verbose parsed url   hostname: null,
+93 verbose parsed url   hash: null,
+93 verbose parsed url   search: null,
+93 verbose parsed url   query: null,
+93 verbose parsed url   pathname: '3.0.0',
+93 verbose parsed url   path: '3.0.0',
+93 verbose parsed url   href: '3.0.0' }
+94 verbose addNamed [ 'angular/router', '3.0.0' ]
+95 verbose addNamed [ '3.0.0', '3.0.0' ]
+96 silly lockFile 72aca4b2-angular-router-3-0-0 angular/router@3.0.0
+97 verbose lock angular/router@3.0.0 /home/lwg/.npm/72aca4b2-angular-router-3-0-0.lock
+98 verbose cache add [ 'angular2-in-memory-web-api@0.0.20', null ]
+99 verbose cache add name=undefined spec="angular2-in-memory-web-api@0.0.20" args=["angular2-in-memory-web-api@0.0.20",null]
+100 verbose parsed url { protocol: null,
+100 verbose parsed url   slashes: null,
+100 verbose parsed url   auth: null,
+100 verbose parsed url   host: null,
+100 verbose parsed url   port: null,
+100 verbose parsed url   hostname: null,
+100 verbose parsed url   hash: null,
+100 verbose parsed url   search: null,
+100 verbose parsed url   query: null,
+100 verbose parsed url   pathname: 'angular2-in-memory-web-api@0.0.20',
+100 verbose parsed url   path: 'angular2-in-memory-web-api@0.0.20',
+100 verbose parsed url   href: 'angular2-in-memory-web-api@0.0.20' }
+101 verbose cache add name="angular2-in-memory-web-api" spec="0.0.20" args=["angular2-in-memory-web-api","0.0.20"]
+102 verbose parsed url { protocol: null,
+102 verbose parsed url   slashes: null,
+102 verbose parsed url   auth: null,
+102 verbose parsed url   host: null,
+102 verbose parsed url   port: null,
+102 verbose parsed url   hostname: null,
+102 verbose parsed url   hash: null,
+102 verbose parsed url   search: null,
+102 verbose parsed url   query: null,
+102 verbose parsed url   pathname: '0.0.20',
+102 verbose parsed url   path: '0.0.20',
+102 verbose parsed url   href: '0.0.20' }
+103 verbose addNamed [ 'angular2-in-memory-web-api', '0.0.20' ]
+104 verbose addNamed [ '0.0.20', '0.0.20' ]
+105 silly lockFile 6fc9e50e-ngular2-in-memory-web-api-0-0-20 angular2-in-memory-web-api@0.0.20
+106 verbose lock angular2-in-memory-web-api@0.0.20 /home/lwg/.npm/6fc9e50e-ngular2-in-memory-web-api-0-0-20.lock
+107 verbose cache add [ 'bootstrap@3.3.6', null ]
+108 verbose cache add name=undefined spec="bootstrap@3.3.6" args=["bootstrap@3.3.6",null]
+109 verbose parsed url { protocol: null,
+109 verbose parsed url   slashes: null,
+109 verbose parsed url   auth: null,
+109 verbose parsed url   host: null,
+109 verbose parsed url   port: null,
+109 verbose parsed url   hostname: null,
+109 verbose parsed url   hash: null,
+109 verbose parsed url   search: null,
+109 verbose parsed url   query: null,
+109 verbose parsed url   pathname: 'bootstrap@3.3.6',
+109 verbose parsed url   path: 'bootstrap@3.3.6',
+109 verbose parsed url   href: 'bootstrap@3.3.6' }
+110 verbose cache add name="bootstrap" spec="3.3.6" args=["bootstrap","3.3.6"]
+111 verbose parsed url { protocol: null,
+111 verbose parsed url   slashes: null,
+111 verbose parsed url   auth: null,
+111 verbose parsed url   host: null,
+111 verbose parsed url   port: null,
+111 verbose parsed url   hostname: null,
+111 verbose parsed url   hash: null,
+111 verbose parsed url   search: null,
+111 verbose parsed url   query: null,
+111 verbose parsed url   pathname: '3.3.6',
+111 verbose parsed url   path: '3.3.6',
+111 verbose parsed url   href: '3.3.6' }
+112 verbose addNamed [ 'bootstrap', '3.3.6' ]
+113 verbose addNamed [ '3.3.6', '3.3.6' ]
+114 silly lockFile 6ebe7417-bootstrap-3-3-6 bootstrap@3.3.6
+115 verbose lock bootstrap@3.3.6 /home/lwg/.npm/6ebe7417-bootstrap-3-3-6.lock
+116 verbose cache add [ 'core-js@2.4.1', null ]
+117 verbose cache add name=undefined spec="core-js@2.4.1" args=["core-js@2.4.1",null]
+118 verbose parsed url { protocol: null,
+118 verbose parsed url   slashes: null,
+118 verbose parsed url   auth: null,
+118 verbose parsed url   host: null,
+118 verbose parsed url   port: null,
+118 verbose parsed url   hostname: null,
+118 verbose parsed url   hash: null,
+118 verbose parsed url   search: null,
+118 verbose parsed url   query: null,
+118 verbose parsed url   pathname: 'core-js@2.4.1',
+118 verbose parsed url   path: 'core-js@2.4.1',
+118 verbose parsed url   href: 'core-js@2.4.1' }
+119 verbose cache add name="core-js" spec="2.4.1" args=["core-js","2.4.1"]
+120 verbose parsed url { protocol: null,
+120 verbose parsed url   slashes: null,
+120 verbose parsed url   auth: null,
+120 verbose parsed url   host: null,
+120 verbose parsed url   port: null,
+120 verbose parsed url   hostname: null,
+120 verbose parsed url   hash: null,
+120 verbose parsed url   search: null,
+120 verbose parsed url   query: null,
+120 verbose parsed url   pathname: '2.4.1',
+120 verbose parsed url   path: '2.4.1',
+120 verbose parsed url   href: '2.4.1' }
+121 verbose addNamed [ 'core-js', '2.4.1' ]
+122 verbose addNamed [ '2.4.1', '2.4.1' ]
+123 silly lockFile fcae3d95-core-js-2-4-1 core-js@2.4.1
+124 verbose lock core-js@2.4.1 /home/lwg/.npm/fcae3d95-core-js-2-4-1.lock
+125 verbose cache add [ 'reflect-metadata@0.1.3', null ]
+126 verbose cache add name=undefined spec="reflect-metadata@0.1.3" args=["reflect-metadata@0.1.3",null]
+127 verbose parsed url { protocol: null,
+127 verbose parsed url   slashes: null,
+127 verbose parsed url   auth: null,
+127 verbose parsed url   host: null,
+127 verbose parsed url   port: null,
+127 verbose parsed url   hostname: null,
+127 verbose parsed url   hash: null,
+127 verbose parsed url   search: null,
+127 verbose parsed url   query: null,
+127 verbose parsed url   pathname: 'reflect-metadata@0.1.3',
+127 verbose parsed url   path: 'reflect-metadata@0.1.3',
+127 verbose parsed url   href: 'reflect-metadata@0.1.3' }
+128 verbose cache add name="reflect-metadata" spec="0.1.3" args=["reflect-metadata","0.1.3"]
+129 verbose parsed url { protocol: null,
+129 verbose parsed url   slashes: null,
+129 verbose parsed url   auth: null,
+129 verbose parsed url   host: null,
+129 verbose parsed url   port: null,
+129 verbose parsed url   hostname: null,
+129 verbose parsed url   hash: null,
+129 verbose parsed url   search: null,
+129 verbose parsed url   query: null,
+129 verbose parsed url   pathname: '0.1.3',
+129 verbose parsed url   path: '0.1.3',
+129 verbose parsed url   href: '0.1.3' }
+130 verbose addNamed [ 'reflect-metadata', '0.1.3' ]
+131 verbose addNamed [ '0.1.3', '0.1.3' ]
+132 silly lockFile f27a1489-reflect-metadata-0-1-3 reflect-metadata@0.1.3
+133 verbose lock reflect-metadata@0.1.3 /home/lwg/.npm/f27a1489-reflect-metadata-0-1-3.lock
+134 verbose cache add [ 'rxjs@5.0.0-beta.12', null ]
+135 verbose cache add name=undefined spec="rxjs@5.0.0-beta.12" args=["rxjs@5.0.0-beta.12",null]
+136 verbose parsed url { protocol: null,
+136 verbose parsed url   slashes: null,
+136 verbose parsed url   auth: null,
+136 verbose parsed url   host: null,
+136 verbose parsed url   port: null,
+136 verbose parsed url   hostname: null,
+136 verbose parsed url   hash: null,
+136 verbose parsed url   search: null,
+136 verbose parsed url   query: null,
+136 verbose parsed url   pathname: 'rxjs@5.0.0-beta.12',
+136 verbose parsed url   path: 'rxjs@5.0.0-beta.12',
+136 verbose parsed url   href: 'rxjs@5.0.0-beta.12' }
+137 verbose cache add name="rxjs" spec="5.0.0-beta.12" args=["rxjs","5.0.0-beta.12"]
+138 verbose parsed url { protocol: null,
+138 verbose parsed url   slashes: null,
+138 verbose parsed url   auth: null,
+138 verbose parsed url   host: null,
+138 verbose parsed url   port: null,
+138 verbose parsed url   hostname: null,
+138 verbose parsed url   hash: null,
+138 verbose parsed url   search: null,
+138 verbose parsed url   query: null,
+138 verbose parsed url   pathname: '5.0.0-beta.12',
+138 verbose parsed url   path: '5.0.0-beta.12',
+138 verbose parsed url   href: '5.0.0-beta.12' }
+139 verbose addNamed [ 'rxjs', '5.0.0-beta.12' ]
+140 verbose addNamed [ '5.0.0-beta.12', '5.0.0-beta.12' ]
+141 silly lockFile 4a2ee142-rxjs-5-0-0-beta-12 rxjs@5.0.0-beta.12
+142 verbose lock rxjs@5.0.0-beta.12 /home/lwg/.npm/4a2ee142-rxjs-5-0-0-beta-12.lock
+143 verbose cache add [ 'zone.js@0.6.23', null ]
+144 verbose cache add name=undefined spec="zone.js@0.6.23" args=["zone.js@0.6.23",null]
+145 verbose parsed url { protocol: null,
+145 verbose parsed url   slashes: null,
+145 verbose parsed url   auth: null,
+145 verbose parsed url   host: null,
+145 verbose parsed url   port: null,
+145 verbose parsed url   hostname: null,
+145 verbose parsed url   hash: null,
+145 verbose parsed url   search: null,
+145 verbose parsed url   query: null,
+145 verbose parsed url   pathname: 'zone.js@0.6.23',
+145 verbose parsed url   path: 'zone.js@0.6.23',
+145 verbose parsed url   href: 'zone.js@0.6.23' }
+146 verbose cache add name="zone.js" spec="0.6.23" args=["zone.js","0.6.23"]
+147 verbose parsed url { protocol: null,
+147 verbose parsed url   slashes: null,
+147 verbose parsed url   auth: null,
+147 verbose parsed url   host: null,
+147 verbose parsed url   port: null,
+147 verbose parsed url   hostname: null,
+147 verbose parsed url   hash: null,
+147 verbose parsed url   search: null,
+147 verbose parsed url   query: null,
+147 verbose parsed url   pathname: '0.6.23',
+147 verbose parsed url   path: '0.6.23',
+147 verbose parsed url   href: '0.6.23' }
+148 verbose addNamed [ 'zone.js', '0.6.23' ]
+149 verbose addNamed [ '0.6.23', '0.6.23' ]
+150 silly lockFile 4159d8cc-zone-js-0-6-23 zone.js@0.6.23
+151 verbose lock zone.js@0.6.23 /home/lwg/.npm/4159d8cc-zone-js-0-6-23.lock
+152 verbose cache add [ '@types/core-js@0.9.34', null ]
+153 verbose cache add name=undefined spec="@types/core-js@0.9.34" args=["@types/core-js@0.9.34",null]
+154 verbose parsed url { protocol: null,
+154 verbose parsed url   slashes: null,
+154 verbose parsed url   auth: null,
+154 verbose parsed url   host: null,
+154 verbose parsed url   port: null,
+154 verbose parsed url   hostname: null,
+154 verbose parsed url   hash: null,
+154 verbose parsed url   search: null,
+154 verbose parsed url   query: null,
+154 verbose parsed url   pathname: '@types/core-js@0.9.34',
+154 verbose parsed url   path: '@types/core-js@0.9.34',
+154 verbose parsed url   href: '@types/core-js@0.9.34' }
+155 verbose cache add name="" spec="types/core-js@0.9.34" args=["","types/core-js@0.9.34"]
+156 verbose parsed url { protocol: null,
+156 verbose parsed url   slashes: null,
+156 verbose parsed url   auth: null,
+156 verbose parsed url   host: null,
+156 verbose parsed url   port: null,
+156 verbose parsed url   hostname: null,
+156 verbose parsed url   hash: null,
+156 verbose parsed url   search: null,
+156 verbose parsed url   query: null,
+156 verbose parsed url   pathname: 'types/core-js@0.9.34',
+156 verbose parsed url   path: 'types/core-js@0.9.34',
+156 verbose parsed url   href: 'types/core-js@0.9.34' }
+157 verbose cache add name="types/core-js" spec="0.9.34" args=["types/core-js","0.9.34"]
+158 verbose parsed url { protocol: null,
+158 verbose parsed url   slashes: null,
+158 verbose parsed url   auth: null,
+158 verbose parsed url   host: null,
+158 verbose parsed url   port: null,
+158 verbose parsed url   hostname: null,
+158 verbose parsed url   hash: null,
+158 verbose parsed url   search: null,
+158 verbose parsed url   query: null,
+158 verbose parsed url   pathname: '0.9.34',
+158 verbose parsed url   path: '0.9.34',
+158 verbose parsed url   href: '0.9.34' }
+159 verbose addNamed [ 'types/core-js', '0.9.34' ]
+160 verbose addNamed [ '0.9.34', '0.9.34' ]
+161 silly lockFile f11ade09-types-core-js-0-9-34 types/core-js@0.9.34
+162 verbose lock types/core-js@0.9.34 /home/lwg/.npm/f11ade09-types-core-js-0-9-34.lock
+163 verbose cache add [ 'source-map-loader@0.1.5', null ]
+164 verbose cache add name=undefined spec="source-map-loader@0.1.5" args=["source-map-loader@0.1.5",null]
+165 verbose parsed url { protocol: null,
+165 verbose parsed url   slashes: null,
+165 verbose parsed url   auth: null,
+165 verbose parsed url   host: null,
+165 verbose parsed url   port: null,
+165 verbose parsed url   hostname: null,
+165 verbose parsed url   hash: null,
+165 verbose parsed url   search: null,
+165 verbose parsed url   query: null,
+165 verbose parsed url   pathname: 'source-map-loader@0.1.5',
+165 verbose parsed url   path: 'source-map-loader@0.1.5',
+165 verbose parsed url   href: 'source-map-loader@0.1.5' }
+166 verbose cache add name="source-map-loader" spec="0.1.5" args=["source-map-loader","0.1.5"]
+167 verbose parsed url { protocol: null,
+167 verbose parsed url   slashes: null,
+167 verbose parsed url   auth: null,
+167 verbose parsed url   host: null,
+167 verbose parsed url   port: null,
+167 verbose parsed url   hostname: null,
+167 verbose parsed url   hash: null,
+167 verbose parsed url   search: null,
+167 verbose parsed url   query: null,
+167 verbose parsed url   pathname: '0.1.5',
+167 verbose parsed url   path: '0.1.5',
+167 verbose parsed url   href: '0.1.5' }
+168 verbose addNamed [ 'source-map-loader', '0.1.5' ]
+169 verbose addNamed [ '0.1.5', '0.1.5' ]
+170 silly lockFile cb660e4f-source-map-loader-0-1-5 source-map-loader@0.1.5
+171 verbose lock source-map-loader@0.1.5 /home/lwg/.npm/cb660e4f-source-map-loader-0-1-5.lock
+172 verbose cache add [ 'ts-loader@1.2.1', null ]
+173 verbose cache add name=undefined spec="ts-loader@1.2.1" args=["ts-loader@1.2.1",null]
+174 verbose parsed url { protocol: null,
+174 verbose parsed url   slashes: null,
+174 verbose parsed url   auth: null,
+174 verbose parsed url   host: null,
+174 verbose parsed url   port: null,
+174 verbose parsed url   hostname: null,
+174 verbose parsed url   hash: null,
+174 verbose parsed url   search: null,
+174 verbose parsed url   query: null,
+174 verbose parsed url   pathname: 'ts-loader@1.2.1',
+174 verbose parsed url   path: 'ts-loader@1.2.1',
+174 verbose parsed url   href: 'ts-loader@1.2.1' }
+175 verbose cache add name="ts-loader" spec="1.2.1" args=["ts-loader","1.2.1"]
+176 verbose parsed url { protocol: null,
+176 verbose parsed url   slashes: null,
+176 verbose parsed url   auth: null,
+176 verbose parsed url   host: null,
+176 verbose parsed url   port: null,
+176 verbose parsed url   hostname: null,
+176 verbose parsed url   hash: null,
+176 verbose parsed url   search: null,
+176 verbose parsed url   query: null,
+176 verbose parsed url   pathname: '1.2.1',
+176 verbose parsed url   path: '1.2.1',
+176 verbose parsed url   href: '1.2.1' }
+177 verbose addNamed [ 'ts-loader', '1.2.1' ]
+178 verbose addNamed [ '1.2.1', '1.2.1' ]
+179 silly lockFile f781816c-ts-loader-1-2-1 ts-loader@1.2.1
+180 verbose lock ts-loader@1.2.1 /home/lwg/.npm/f781816c-ts-loader-1-2-1.lock
+181 verbose cache add [ 'typescript@2.0.0', null ]
+182 verbose cache add name=undefined spec="typescript@2.0.0" args=["typescript@2.0.0",null]
+183 verbose parsed url { protocol: null,
+183 verbose parsed url   slashes: null,
+183 verbose parsed url   auth: null,
+183 verbose parsed url   host: null,
+183 verbose parsed url   port: null,
+183 verbose parsed url   hostname: null,
+183 verbose parsed url   hash: null,
+183 verbose parsed url   search: null,
+183 verbose parsed url   query: null,
+183 verbose parsed url   pathname: 'typescript@2.0.0',
+183 verbose parsed url   path: 'typescript@2.0.0',
+183 verbose parsed url   href: 'typescript@2.0.0' }
+184 verbose cache add name="typescript" spec="2.0.0" args=["typescript","2.0.0"]
+185 verbose parsed url { protocol: null,
+185 verbose parsed url   slashes: null,
+185 verbose parsed url   auth: null,
+185 verbose parsed url   host: null,
+185 verbose parsed url   port: null,
+185 verbose parsed url   hostname: null,
+185 verbose parsed url   hash: null,
+185 verbose parsed url   search: null,
+185 verbose parsed url   query: null,
+185 verbose parsed url   pathname: '2.0.0',
+185 verbose parsed url   path: '2.0.0',
+185 verbose parsed url   href: '2.0.0' }
+186 verbose addNamed [ 'typescript', '2.0.0' ]
+187 verbose addNamed [ '2.0.0', '2.0.0' ]
+188 silly lockFile 078e4c41-typescript-2-0-0 typescript@2.0.0
+189 verbose lock typescript@2.0.0 /home/lwg/.npm/078e4c41-typescript-2-0-0.lock
+190 verbose cache add [ 'webpack@1.12.9', null ]
+191 verbose cache add name=undefined spec="webpack@1.12.9" args=["webpack@1.12.9",null]
+192 verbose parsed url { protocol: null,
+192 verbose parsed url   slashes: null,
+192 verbose parsed url   auth: null,
+192 verbose parsed url   host: null,
+192 verbose parsed url   port: null,
+192 verbose parsed url   hostname: null,
+192 verbose parsed url   hash: null,
+192 verbose parsed url   search: null,
+192 verbose parsed url   query: null,
+192 verbose parsed url   pathname: 'webpack@1.12.9',
+192 verbose parsed url   path: 'webpack@1.12.9',
+192 verbose parsed url   href: 'webpack@1.12.9' }
+193 verbose cache add name="webpack" spec="1.12.9" args=["webpack","1.12.9"]
+194 verbose parsed url { protocol: null,
+194 verbose parsed url   slashes: null,
+194 verbose parsed url   auth: null,
+194 verbose parsed url   host: null,
+194 verbose parsed url   port: null,
+194 verbose parsed url   hostname: null,
+194 verbose parsed url   hash: null,
+194 verbose parsed url   search: null,
+194 verbose parsed url   query: null,
+194 verbose parsed url   pathname: '1.12.9',
+194 verbose parsed url   path: '1.12.9',
+194 verbose parsed url   href: '1.12.9' }
+195 verbose addNamed [ 'webpack', '1.12.9' ]
+196 verbose addNamed [ '1.12.9', '1.12.9' ]
+197 silly lockFile bf2520d5-webpack-1-12-9 webpack@1.12.9
+198 verbose lock webpack@1.12.9 /home/lwg/.npm/bf2520d5-webpack-1-12-9.lock
+199 verbose cache add [ 'webpack-dev-server@1.14.0', null ]
+200 verbose cache add name=undefined spec="webpack-dev-server@1.14.0" args=["webpack-dev-server@1.14.0",null]
+201 verbose parsed url { protocol: null,
+201 verbose parsed url   slashes: null,
+201 verbose parsed url   auth: null,
+201 verbose parsed url   host: null,
+201 verbose parsed url   port: null,
+201 verbose parsed url   hostname: null,
+201 verbose parsed url   hash: null,
+201 verbose parsed url   search: null,
+201 verbose parsed url   query: null,
+201 verbose parsed url   pathname: 'webpack-dev-server@1.14.0',
+201 verbose parsed url   path: 'webpack-dev-server@1.14.0',
+201 verbose parsed url   href: 'webpack-dev-server@1.14.0' }
+202 verbose cache add name="webpack-dev-server" spec="1.14.0" args=["webpack-dev-server","1.14.0"]
+203 verbose parsed url { protocol: null,
+203 verbose parsed url   slashes: null,
+203 verbose parsed url   auth: null,
+203 verbose parsed url   host: null,
+203 verbose parsed url   port: null,
+203 verbose parsed url   hostname: null,
+203 verbose parsed url   hash: null,
+203 verbose parsed url   search: null,
+203 verbose parsed url   query: null,
+203 verbose parsed url   pathname: '1.14.0',
+203 verbose parsed url   path: '1.14.0',
+203 verbose parsed url   href: '1.14.0' }
+204 verbose addNamed [ 'webpack-dev-server', '1.14.0' ]
+205 verbose addNamed [ '1.14.0', '1.14.0' ]
+206 silly lockFile f0215c54-webpack-dev-server-1-14-0 webpack-dev-server@1.14.0
+207 verbose lock webpack-dev-server@1.14.0 /home/lwg/.npm/f0215c54-webpack-dev-server-1-14-0.lock
+208 verbose cache add [ 'webpack-merge@0.8.4', null ]
+209 verbose cache add name=undefined spec="webpack-merge@0.8.4" args=["webpack-merge@0.8.4",null]
+210 verbose parsed url { protocol: null,
+210 verbose parsed url   slashes: null,
+210 verbose parsed url   auth: null,
+210 verbose parsed url   host: null,
+210 verbose parsed url   port: null,
+210 verbose parsed url   hostname: null,
+210 verbose parsed url   hash: null,
+210 verbose parsed url   search: null,
+210 verbose parsed url   query: null,
+210 verbose parsed url   pathname: 'webpack-merge@0.8.4',
+210 verbose parsed url   path: 'webpack-merge@0.8.4',
+210 verbose parsed url   href: 'webpack-merge@0.8.4' }
+211 verbose cache add name="webpack-merge" spec="0.8.4" args=["webpack-merge","0.8.4"]
+212 verbose parsed url { protocol: null,
+212 verbose parsed url   slashes: null,
+212 verbose parsed url   auth: null,
+212 verbose parsed url   host: null,
+212 verbose parsed url   port: null,
+212 verbose parsed url   hostname: null,
+212 verbose parsed url   hash: null,
+212 verbose parsed url   search: null,
+212 verbose parsed url   query: null,
+212 verbose parsed url   pathname: '0.8.4',
+212 verbose parsed url   path: '0.8.4',
+212 verbose parsed url   href: '0.8.4' }
+213 verbose addNamed [ 'webpack-merge', '0.8.4' ]
+214 verbose addNamed [ '0.8.4', '0.8.4' ]
+215 silly lockFile 32ac5388-webpack-merge-0-8-4 webpack-merge@0.8.4
+216 verbose lock webpack-merge@0.8.4 /home/lwg/.npm/32ac5388-webpack-merge-0-8-4.lock
+217 verbose url raw angular/common/2.0.0
+218 verbose url resolving [ 'https://registry.npmjs.org/', './angular/common/2.0.0' ]
+219 verbose url resolved https://registry.npmjs.org/angular/common/2.0.0
+220 info trying registry request attempt 1 at 16:44:38
+221 http GET https://registry.npmjs.org/angular/common/2.0.0
+222 verbose url raw angular/forms/2.0.0
+223 verbose url resolving [ 'https://registry.npmjs.org/', './angular/forms/2.0.0' ]
+224 verbose url resolved https://registry.npmjs.org/angular/forms/2.0.0
+225 info trying registry request attempt 1 at 16:44:38
+226 http GET https://registry.npmjs.org/angular/forms/2.0.0
+227 verbose url raw angular/compiler/2.0.0
+228 verbose url resolving [ 'https://registry.npmjs.org/', './angular/compiler/2.0.0' ]
+229 verbose url resolved https://registry.npmjs.org/angular/compiler/2.0.0
+230 info trying registry request attempt 1 at 16:44:38
+231 http GET https://registry.npmjs.org/angular/compiler/2.0.0
+232 verbose url raw angular/core/2.0.0
+233 verbose url resolving [ 'https://registry.npmjs.org/', './angular/core/2.0.0' ]
+234 verbose url resolved https://registry.npmjs.org/angular/core/2.0.0
+235 info trying registry request attempt 1 at 16:44:38
+236 http GET https://registry.npmjs.org/angular/core/2.0.0
+237 verbose url raw angular/http/2.0.0
+238 verbose url resolving [ 'https://registry.npmjs.org/', './angular/http/2.0.0' ]
+239 verbose url resolved https://registry.npmjs.org/angular/http/2.0.0
+240 info trying registry request attempt 1 at 16:44:38
+241 http GET https://registry.npmjs.org/angular/http/2.0.0
+242 verbose url raw angular/platform-browser/2.0.0
+243 verbose url resolving [ 'https://registry.npmjs.org/',
+243 verbose url resolving   './angular/platform-browser/2.0.0' ]
+244 verbose url resolved https://registry.npmjs.org/angular/platform-browser/2.0.0
+245 info trying registry request attempt 1 at 16:44:38
+246 http GET https://registry.npmjs.org/angular/platform-browser/2.0.0
+247 verbose url raw angular/platform-browser-dynamic/2.0.0
+248 verbose url resolving [ 'https://registry.npmjs.org/',
+248 verbose url resolving   './angular/platform-browser-dynamic/2.0.0' ]
+249 verbose url resolved https://registry.npmjs.org/angular/platform-browser-dynamic/2.0.0
+250 info trying registry request attempt 1 at 16:44:38
+251 http GET https://registry.npmjs.org/angular/platform-browser-dynamic/2.0.0
+252 verbose url raw angular/router/3.0.0
+253 verbose url resolving [ 'https://registry.npmjs.org/', './angular/router/3.0.0' ]
+254 verbose url resolved https://registry.npmjs.org/angular/router/3.0.0
+255 info trying registry request attempt 1 at 16:44:38
+256 http GET https://registry.npmjs.org/angular/router/3.0.0
+257 verbose url raw types/core-js/0.9.34
+258 verbose url resolving [ 'https://registry.npmjs.org/', './types/core-js/0.9.34' ]
+259 verbose url resolved https://registry.npmjs.org/types/core-js/0.9.34
+260 info trying registry request attempt 1 at 16:44:38
+261 http GET https://registry.npmjs.org/types/core-js/0.9.34
+262 verbose url raw angular2-in-memory-web-api/0.0.20
+263 verbose url resolving [ 'https://registry.npmjs.org/',
+263 verbose url resolving   './angular2-in-memory-web-api/0.0.20' ]
+264 verbose url resolved https://registry.npmjs.org/angular2-in-memory-web-api/0.0.20
+265 info trying registry request attempt 1 at 16:44:38
+266 verbose etag "9RC7FLI9XWYCD1F0WI5PD23X5"
+267 http GET https://registry.npmjs.org/angular2-in-memory-web-api/0.0.20
+268 verbose url raw bootstrap/3.3.6
+269 verbose url resolving [ 'https://registry.npmjs.org/', './bootstrap/3.3.6' ]
+270 verbose url resolved https://registry.npmjs.org/bootstrap/3.3.6
+271 info trying registry request attempt 1 at 16:44:38
+272 verbose etag "7C41GBJ1W5WSO142RHMZJN6G7"
+273 http GET https://registry.npmjs.org/bootstrap/3.3.6
+274 verbose url raw core-js/2.4.1
+275 verbose url resolving [ 'https://registry.npmjs.org/', './core-js/2.4.1' ]
+276 verbose url resolved https://registry.npmjs.org/core-js/2.4.1
+277 info trying registry request attempt 1 at 16:44:38
+278 verbose etag "ECGTS02GD235834ZSB0EK7Z0I"
+279 http GET https://registry.npmjs.org/core-js/2.4.1
+280 verbose url raw reflect-metadata/0.1.3
+281 verbose url resolving [ 'https://registry.npmjs.org/', './reflect-metadata/0.1.3' ]
+282 verbose url resolved https://registry.npmjs.org/reflect-metadata/0.1.3
+283 info trying registry request attempt 1 at 16:44:38
+284 verbose etag "6VDBCNV5RC6S8L2CK2WRZODYB"
+285 http GET https://registry.npmjs.org/reflect-metadata/0.1.3
+286 verbose url raw rxjs/5.0.0-beta.12
+287 verbose url resolving [ 'https://registry.npmjs.org/', './rxjs/5.0.0-beta.12' ]
+288 verbose url resolved https://registry.npmjs.org/rxjs/5.0.0-beta.12
+289 info trying registry request attempt 1 at 16:44:38
+290 verbose etag "96JYMO0WIKFV58EMXIC9B71YY"
+291 http GET https://registry.npmjs.org/rxjs/5.0.0-beta.12
+292 verbose url raw zone.js/0.6.23
+293 verbose url resolving [ 'https://registry.npmjs.org/', './zone.js/0.6.23' ]
+294 verbose url resolved https://registry.npmjs.org/zone.js/0.6.23
+295 info trying registry request attempt 1 at 16:44:38
+296 verbose etag "CIC53LOCUL8CPB0TMQS5PKN83"
+297 http GET https://registry.npmjs.org/zone.js/0.6.23
+298 verbose url raw source-map-loader/0.1.5
+299 verbose url resolving [ 'https://registry.npmjs.org/', './source-map-loader/0.1.5' ]
+300 verbose url resolved https://registry.npmjs.org/source-map-loader/0.1.5
+301 info trying registry request attempt 1 at 16:44:38
+302 verbose etag "8H55JQ8BVJ7DI50RV2FVFU2XQ"
+303 http GET https://registry.npmjs.org/source-map-loader/0.1.5
+304 verbose url raw ts-loader/1.2.1
+305 verbose url resolving [ 'https://registry.npmjs.org/', './ts-loader/1.2.1' ]
+306 verbose url resolved https://registry.npmjs.org/ts-loader/1.2.1
+307 info trying registry request attempt 1 at 16:44:38
+308 verbose etag "EHSZESXXX9V5HB1C6V3HZTFDD"
+309 http GET https://registry.npmjs.org/ts-loader/1.2.1
+310 verbose url raw typescript/2.0.0
+311 verbose url resolving [ 'https://registry.npmjs.org/', './typescript/2.0.0' ]
+312 verbose url resolved https://registry.npmjs.org/typescript/2.0.0
+313 info trying registry request attempt 1 at 16:44:38
+314 verbose etag "92MQ7N7PIR3O6TC6IYTA6LGZG"
+315 http GET https://registry.npmjs.org/typescript/2.0.0
+316 verbose url raw webpack/1.12.9
+317 verbose url resolving [ 'https://registry.npmjs.org/', './webpack/1.12.9' ]
+318 verbose url resolved https://registry.npmjs.org/webpack/1.12.9
+319 info trying registry request attempt 1 at 16:44:38
+320 verbose etag "BZSOVFN2PK0MFJGVFQ78E4XSI"
+321 http GET https://registry.npmjs.org/webpack/1.12.9
+322 verbose url raw webpack-dev-server/1.14.0
+323 verbose url resolving [ 'https://registry.npmjs.org/', './webpack-dev-server/1.14.0' ]
+324 verbose url resolved https://registry.npmjs.org/webpack-dev-server/1.14.0
+325 info trying registry request attempt 1 at 16:44:38
+326 verbose etag "CEMRK2XUL7UGXROB8DGOC1V31"
+327 http GET https://registry.npmjs.org/webpack-dev-server/1.14.0
+328 verbose url raw webpack-merge/0.8.4
+329 verbose url resolving [ 'https://registry.npmjs.org/', './webpack-merge/0.8.4' ]
+330 verbose url resolved https://registry.npmjs.org/webpack-merge/0.8.4
+331 info trying registry request attempt 1 at 16:44:38
+332 verbose etag "2KYET2PF4A71SZCJWTZFPWD0U"
+333 http GET https://registry.npmjs.org/webpack-merge/0.8.4
+334 http 404 https://registry.npmjs.org/angular/compiler/2.0.0
+335 silly registry.get cb [ 404,
+335 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+335 silly registry.get     'content-type': 'application/json',
+335 silly registry.get     'cache-control': 'max-age=0',
+335 silly registry.get     'content-length': '40',
+335 silly registry.get     'accept-ranges': 'bytes',
+335 silly registry.get     date: 'Sat, 07 Oct 2017 08:44:34 GMT',
+335 silly registry.get     via: '1.1 varnish',
+335 silly registry.get     age: '0',
+335 silly registry.get     connection: 'keep-alive',
+335 silly registry.get     'x-served-by': 'cache-hkg17929-HKG',
+335 silly registry.get     'x-cache': 'MISS',
+335 silly registry.get     'x-cache-hits': '0',
+335 silly registry.get     'x-timer': 'S1507365875.563520,VS0,VE185' } ]
+336 silly lockFile 770c3c92-angular-compiler-2-0-0 angular/compiler@2.0.0
+337 silly lockFile 770c3c92-angular-compiler-2-0-0 angular/compiler@2.0.0
+338 error 404 'angular' is not in the npm registry.
+338 error 404 You should bug the author to publish it
+338 error 404
+338 error 404 Note that you can also install from a
+338 error 404 tarball, folder, or http url, or git url.
+339 error System Linux 3.13.0-129-generic
+340 error command "/usr/bin/nodejs" "/usr/bin/npm" "install"
+341 error cwd /home/lwg/work/angular2-contacts-demo
+342 error node -v v0.10.25
+343 error npm -v 1.3.10
+344 error code E404
+345 verbose exit [ 1, true ]
