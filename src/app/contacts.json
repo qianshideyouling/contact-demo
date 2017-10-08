@@ -40,7 +40,27 @@
     "music": "./music/shanqiu.mp3"
   },
   {
-    "id": 2,
+    "id": 5,
+    "name": "yimianhushui",
+    "telNum": "18900001001",
+    "address": "广东省深圳市",
+    "email": "123@qq.com",
+    "birthday": "1990/10/10",
+    "collection": 1,
+    "music": "./music/yimianhushui.mp3"
+  },
+  {
+    "id": 6,
+    "name": "mamadeshou",
+    "telNum": "18900001001",
+    "address": "广东省深圳市",
+    "email": "123@qq.com",
+    "birthday": "1990/10/10",
+    "collection": 1,
+    "music": "./music/mamadeshou.mp3"
+  },
+  {
+    "id": 5,
     "name": "Firework",
     "telNum": "18900001002",
     "address": "广东省深圳市",
